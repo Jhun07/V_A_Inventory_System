@@ -186,11 +186,13 @@ body{
 }.sidebar ul li {
   display: block;
 }.sidebar ul li:hover,ul.submenu{
-  background-color:#d3deec;
+  /* background-color:#db953a; */
+  background-color: #14acc0;
 }.sidebar ul li a:hover {
   color: white;
 }.sidebar ul li a,ul.submenu li a {
-  color: #aeb2b7;
+  color: #db953a;
+  /* color: #14acc0; */
   display: block;
   overflow: hidden;
   position: relative;
@@ -201,16 +203,16 @@ body{
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 1.5px;
-  text-shadow: 0 1px rgb(218, 206, 206);
+  text-shadow: 0 1px #db953a;
 }.sidebar ul li a i{
-  color: #aeb2b7;
+  color: #1b9dd1;
   padding: 15px 22px;
   text-align: center;
 }ul.submenu{
   display: none;
   position: relative;
 }ul.submenu li a:hover{
-  background-color:#acb0b6;
+  background-color:#14acc0;
 }ul.submenu li a {
   padding-left: 45px;
 }ul.submenu li:before{

@@ -17,10 +17,7 @@
                     <th scope="col">Buy_price</th>
                     <th scope="col">sale_price</th>
                     <th scope="col">Categorie_id</th>
-
-                    <th scope="col">Action</th>
-                
-                    
+                    <th scope="col">Action</th> 
                 </tr>
             </thead>
 
@@ -47,16 +44,10 @@
 					</td>
                     <td>
 						<?php echo  $row['name']; ?>
-					</td>
-                    
-         
-
-                  
+					</td>      
 					<td>
 						<?php echo  $row['quantity']; ?>
-					</td>
-
-                   
+					</td>        
 					<td>
 						<?php echo $row['buy_price']; ?>
 					</td>
@@ -73,7 +64,7 @@
                   }
               </style>
            <a href="approvedrequest.php?approvedrequest=<?php echo $row['productId'];?>&name=<?php echo $row['name'];?>&quantity=<?php echo $row['quantity'];?>&buy_price=<?php echo $row['buy_price'];?>&sale_price=<?php echo $row['sale_price'];?>&categorie_id=<?php echo $row['categorie_id'];?>"
-                    class="glyphicon glyphicon-check-warning"></a> 
+                    class="glyphicon glyphicon-check-warning">Approve Request</a> 
 					</td>	
 				</tr>
 <?php } ?>

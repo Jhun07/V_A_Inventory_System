@@ -49,7 +49,7 @@
            <?php if($a_user['status'] === '1'): ?>
             <span class="label label-warning"><?php echo "Active"; ?></span>
           <?php else: ?>
-            <span class="label label-danger"><?php echo "Deactive"; ?></span>
+            <span class="label label-danger"><?php echo "Active"; ?></span>
           <?php endif;?>
            </td>
            <td><?php echo read_date($a_user['last_login'])?></td>

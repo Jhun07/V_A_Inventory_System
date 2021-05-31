@@ -58,7 +58,7 @@ if(!$product){
 </div>
   <div class="row">
       <div class="panel panel-default">
-        <div class="panel-heading">
+        <div class="panel-heading"  style="background-color: #f5deb3">
           <strong>
             <span class="glyphicon glyphicon-th"></span>
             <span>Add New Product</span>

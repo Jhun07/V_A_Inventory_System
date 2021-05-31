@@ -1,5 +1,5 @@
 <?php
-  $page_title = 'Edit Account';
+  $page_title = 'V & A | Edit Account';
   require_once('includes/load.php');
    page_require_level(3);
 ?>
@@ -48,9 +48,9 @@
     <?php echo display_msg($msg); ?>
   </div>
   <div class="col-md-6">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <div class="panel-heading clearfix">
+      <div class="panel panel-default" >
+        <div class="panel-heading"  style="background-color: #f5deb3">
+          <div class="panel-heading clearfix" > 
             <span class="glyphicon glyphicon-camera"></span>
             <span>Change My photo</span>
           </div>
@@ -76,8 +76,8 @@
       </div>
   </div>
   <div class="col-md-6">
-    <div class="panel panel-default">
-      <div class="panel-heading clearfix">
+    <div class="panel panel-default" >
+      <div class="panel-heading clearfix"  style="background-color: #f5deb3">
         <span class="glyphicon glyphicon-edit"></span>
         <span>Edit My Account</span>
       </div>

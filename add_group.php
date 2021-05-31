@@ -18,8 +18,8 @@
      redirect('add_group.php', false);
    }
    if(empty($errors)){
-           $name = remove_junk($db->escape($_POST['group-name']));
-          $level = remove_junk($db->escape($_POST['group-level']));
+        $name = remove_junk($db->escape($_POST['group-name']));
+        $level = remove_junk($db->escape($_POST['group-level']));
          $status = remove_junk($db->escape($_POST['status']));
 
         $query  = "INSERT INTO user_groups (";

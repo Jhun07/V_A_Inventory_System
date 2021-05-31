@@ -19,8 +19,8 @@
   <?php  if ($session->isUserLoggedIn(true)): ?>
     <header id="header" style ="background-image: url(images/t3.png);background-repeat: no-repeat; background-size: cover">
     <div class="logo pull-left" style="background-image: url(images/t3.png);background-repeat: no-repeat;"> <img src="images/logo.png" style="weight: 200px; height: 200px;"></div> 
-    <div class="header-content">
-      <div class="header-date pull-left">
+    <div class="header-content" >
+      <div class="header-date pull-left" style="  color: #db953a;">
         <strong><?php date_default_timezone_set('Asia/Manila'); echo date("F j, Y, g:i a");?></strong>
       </div>
       <div class="pull-right clearfix">

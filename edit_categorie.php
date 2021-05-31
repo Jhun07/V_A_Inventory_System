@@ -42,8 +42,8 @@ if(isset($_POST['edit_cat'])){
      <?php echo display_msg($msg); ?>
    </div>
    <div class="col-md-5">
-     <div class="panel panel-default">
-       <div class="panel-heading">
+     <div class="panel panel-default" >
+       <div class="panel-heading"  style="background-color: #f5deb3">
          <strong>
            <span class="glyphicon glyphicon-th"></span>
            <span>Editing <?php echo remove_junk(ucfirst($categorie['name']));?></span>
